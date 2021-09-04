@@ -1,5 +1,14 @@
+*, ::after, ::before{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0
+}
+
 body, html {
 	min-height: 100vh;
+	tab-size: 4
 }
 
 header,
