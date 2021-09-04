@@ -1,0 +1,63 @@
+body, html {
+	min-height: 100vh;
+}
+
+header,
+main {
+	background-color: #10111a;
+	color: #b6b6c1;
+	font-family: 'Fira Code', monospace;
+	padding: 2em;
+}
+
+::selection {
+	background-color: #404045;
+	color: white;
+}
+
+nav .brand {
+	color: #e0e3ed;
+}
+
+.main-title {
+	font-size: 5em;
+	min-height: 3.3em;
+	line-height: 1.1em;
+}
+
+.green {
+	color: #4FA994;
+}
+
+.orange {
+	color: #F37A53;
+}
+
+.purple {
+	color: #CA64BF;
+}
+
+a {
+	color: #0471A6;
+	border: 1px solid transparent;
+}
+
+a:visited {
+	color: #CA64BF;
+}
+
+a:hover {
+	color: #0694DB;
+}
+
+a:focus {
+	border: 1px solid #4FA994;
+}
+
+a:focus:not(:focus-visible) {
+	border: none;
+	border: 1px solid transparent;
+}
+
+/* Once you have tried building a CSS only typewriter effect, please increment this counter: */
+/* --wasted-hours: 1 */
