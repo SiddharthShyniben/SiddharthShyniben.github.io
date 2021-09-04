@@ -59,5 +59,20 @@ a:focus:not(:focus-visible) {
 	border: 1px solid transparent;
 }
 
+.light-message {
+	display: none;
+	background-color: white;
+	color: black;
+	margin-top: 1em;
+	padding: .5em;
+	border-radius: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+	.light-message {
+		display: block;
+	}
+}
+
 /* Once you have tried building a CSS only typewriter effect, please increment this counter: */
 /* --wasted-hours: 1 */
