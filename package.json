@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthShyniben/SiddharthShyniben.github.io.git"
+  },
+  "author": "SiddharthShyniben <siddharth.muscat@gmail.com> (https://github.com/SiddharthShyniben)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SiddharthShyniben/SiddharthShyniben.github.io/issues"
+  },
+  "homepage": "https://github.com/SiddharthShyniben/SiddharthShyniben.github.io#readme"
+}
