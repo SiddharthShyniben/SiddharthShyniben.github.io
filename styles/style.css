@@ -15,7 +15,8 @@ header,
 main {
 	background-color: #10111a;
 	color: #b6b6c1;
-	font-family: 'Fira Code', monospace;
+	font-family: monospace;
+	font-size: 120%;
 	padding: 2em;
 }
 
