@@ -122,13 +122,11 @@ a:focus:not(:focus-visible) {
 	margin-bottom: -1em;
 }
 
-.card img[src*=github]{
-	width: 41%;
+.card img[src*=github],
+.card img[src*=terminal] {
+	width: 50%;
 }
 
-.card img[src*=terminal]{
-	width: 41%;
-}
 
 @keyframes tada {
 	from {
