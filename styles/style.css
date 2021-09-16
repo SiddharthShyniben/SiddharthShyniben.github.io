@@ -50,6 +50,7 @@ nav .brand {
 a {
 	color: #0BAEFF;
 	border: 1px solid transparent;
+	cursor: pointer;
 }
 
 a:visited {
@@ -86,3 +87,67 @@ a:focus:not(:focus-visible) {
 
 /* Once you have tried building a CSS only typewriter effect, please increment this counter: */
 /* --wasted-hours: 1 */
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 0 1 calc((100% / 3) - 1em);
+	margin: 1.5rem .25em;
+
+	transition: box-shadow 1s;
+
+	text-align: center;
+	background: rgba( 16, 17, 26, 0.1 );
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card:hover {
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.card:hover img {
+	animation: tada 1s;
+}
+
+.card img {
+	max-width: 50%;
+	position: relative;
+	bottom: 2rem;
+	margin-bottom: -1em;
+}
+
+.card img[src*=github]{
+	width: 41%;
+}
+
+.card img[src*=terminal]{
+	width: 41%;
+}
+
+@keyframes tada {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+
+	10%, 20% {
+		transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+	}
+
+	30%, 50%, 70%, 90% {
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+
+	40%, 60%, 80% {
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
